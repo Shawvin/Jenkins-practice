@@ -1,0 +1,20 @@
+Started at Wed Dec 14 14:13:06 UTC 2022
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+Finished at Wed Dec 14 14:13:06 UTC 2022. 3ms
+Started at Wed Dec 14 15:13:06 UTC 2022
+Processing backup-to-aws
+Offering backup-to-aws to Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Finished at Wed Dec 14 15:13:06 UTC 2022. 1ms
+Started at Wed Dec 14 16:13:06 UTC 2022
+Processing backup-to-aws
+Offering backup-to-aws to Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Finished at Wed Dec 14 16:13:06 UTC 2022. 1ms

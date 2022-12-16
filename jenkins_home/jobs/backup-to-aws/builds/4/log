@@ -1,0 +1,26 @@
+Started by user [8mha:////4HwENKZoPJIhChI5MBMOOSs6GmQQHwhGyMrNlkC2ilPDAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-to-aws
+[SSH] script:
+AWS_SECRET=**********
+BUCKET_NAME="jenkins-mysql-backup-xiaoyuan"
+DB_PASSWORD=**********
+
+echo $BUCKET_NAME
+sh /tmp/script.sh $DB_PASSWORD $AWS_SECRET
+
+[SSH] executing...
+Usage: mysqldump [OPTIONS] database [tables]
+OR     mysqldump [OPTIONS] --databases [OPTIONS] DB1 [DB2 DB3...]
+OR     mysqldump [OPTIONS] --all-databases [OPTIONS]
+For more options, use mysqldump --help
+upload failed: ../../tmp/db15-27-23.sql to s3:///db15-27-23.sql Parameter validation failed:
+Invalid bucket name "": Bucket name must match the regex "^[a-zA-Z0-9.\-_]{1,255}$" or be an ARN matching the regex "^arn:(aws).*:(s3|s3-object-lambda):[a-z\-0-9]*:[0-9]{12}:accesspoint[/:][a-zA-Z0-9\-.]{1,63}$|^arn:(aws).*:s3-outposts:[a-z\-0-9]+:[0-9]{12}:outpost[/:][a-zA-Z0-9\-]{1,63}[/:]accesspoint[/:][a-zA-Z0-9\-]{1,63}$"
+jenkins-mysql-backup-xiaoyuan
+Uploading your db backup
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

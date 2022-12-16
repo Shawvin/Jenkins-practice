@@ -136,3 +136,13 @@ python --version
 python3 --version
 ansible -i hosts -m ping test1
 exit
+cd $HOME/ansible/
+ls
+ansible-playbook -i hosts test.yaml
+ls /tmp/ansible-file
+exit
+cd $HOME/ansible/
+ls
+cat test.yaml 
+ansible-playbook -i hosts test.yaml
+exit

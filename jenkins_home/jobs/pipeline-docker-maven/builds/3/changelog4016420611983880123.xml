@@ -1,0 +1,10 @@
+commit 004b7101bcd1412ce2deb7757704f483380a31cd
+tree 0d880644aa52ed6ad1a115da49a4c90250c64385
+parent fc792ef8048856748d46159098d56f5bb993a924
+author EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:30:35 +0000
+committer EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:30:35 +0000
+
+    correct DSL syntax error
+
+
+:100644 100644 99a1dbb9eb2556b871e740dbfe4cd6af0995995a 9c973657e9f1527d4c1b5cc3f74c573413fbbc5e M	Jenkinsfile

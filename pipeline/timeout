@@ -1,0 +1,21 @@
+
+pipeline {
+	agent any
+	
+	stages {
+		stage('Deploy') {
+			steps {
+				retry(3) {
+				sh 'echo "Building.."'
+				sh '''
+					echo "By the way, I can do more stuff here"
+					ls -alh
+				'''
+				}
+				timeout(time :3, unit: 'SECONDS'){
+					sh 'sleep 5'
+				}
+			}
+		}
+	}
+}

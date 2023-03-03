@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-18 15:54:56.833 UTC</timestamp>
+  <md5sum>771b6b24555b64a91a0db7b386aa7b3b</md5sum>
+  <fileName>Credential id=registry-pass name=registry-pass</fileName>
+  <usages>
+    <entry>
+      <string>pipeline-docker-maven</string>
+      <ranges>9-14</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

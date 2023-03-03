@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>ANSIBLE_MSG</name>
+          <value>Hello World. I now have colors</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>ANSIBLE_MSG</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.ansicolor.action.ColorizedAction plugin="ansicolor@1.0.2">
+      <id>6f2695fa-3abf-44da-91b6-a2d79a2cfa5f</id>
+      <colorMapName>xterm</colorMapName>
+      <command>START</command>
+    </hudson.plugins.ansicolor.action.ColorizedAction>
+  </actions>
+  <queueId>28</queueId>
+  <timestamp>1671160031446</timestamp>
+  <startTime>1671160031451</startTime>
+  <result>SUCCESS</result>
+  <duration>2115</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/ansible-test</workspace>
+  <hudsonVersion>2.381</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

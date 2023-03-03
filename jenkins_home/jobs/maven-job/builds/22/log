@@ -1,0 +1,144 @@
+Started by user [8mha:////4HwENKZoPJIhChI5MBMOOSs6GmQQHwhGyMrNlkC2ilPDAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/maven-job
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+using credential git_root
+Cloning the remote Git repository
+Cloning repository http://git:80/gitlab-instance-ddfe566a/maven.git
+ > git init /var/jenkins_home/workspace/maven-job # timeout=10
+Fetching upstream changes from http://git:80/gitlab-instance-ddfe566a/maven.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://git:80/gitlab-instance-ddfe566a/maven.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://git:80/gitlab-instance-ddfe566a/maven.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 7041175f242f7a86b51f7e2f353fe19b8088ac86 (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7041175f242f7a86b51f7e2f353fe19b8088ac86 # timeout=10
+Commit message: "change message to Hello World 123"
+First time build. Skipping changelog.
+[maven-job] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/jenkins-maven/bin/mvn -B -DskipTests clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ my-app ---
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-enforcer-plugin:3.1.0:enforce (enforce-maven) @ my-app ---
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/maven-job/src/main/resources
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/maven-job/target/classes
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/maven-job/src/test/resources
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/maven-job/target/test-classes
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ my-app ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.3.0:jar (default-jar) @ my-app ---
+[INFO] Building jar: /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.628 s
+[INFO] Finished at: 2023-02-20T15:14:12Z
+[INFO] ------------------------------------------------------------------------
+[maven-job] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/jenkins-maven/bin/mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-enforcer-plugin:3.1.0:enforce (enforce-maven) @ my-app ---
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/maven-job/src/main/resources
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/maven-job/src/test/resources
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4GiLhJQXdStH9BJwUOUjxHUkAgQP7jXyAO17GjA/SLcFAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ my-app ---
+[INFO] Surefire report directory: /var/jenkins_home/workspace/maven-job/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycompany.app.AppTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.635 s
+[INFO] Finished at: 2023-02-20T15:14:15Z
+[INFO] ------------------------------------------------------------------------
+[maven-job] $ /bin/sh -xe /tmp/jenkins7932671620528574348.sh
++ echo **************
+**************
++ echo Deploy JAR
+Deploy JAR
++ echo **************
+**************
++ java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
+Hello World 123!
+Archiving artifacts
+Recording test results
+[Checks API] No suitable checks publisher found.
+Sending e-mails to: wxy4shawvin@gmail.com
+ERROR: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError iz2-20020a170902ef8200b00192a8b35fa3sm8138222plb.122 - gsmtp
+
+com.sun.mail.smtp.SMTPSendFailedException: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError iz2-20020a170902ef8200b00192a8b35fa3sm8138222plb.122 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2374)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1808)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1285)
+	at jakarta.mail.Transport.send0(Transport.java:231)
+	at jakarta.mail.Transport.send(Transport.java:100)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:175)
+	at hudson.tasks.Mailer.perform(Mailer.java:138)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1925)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: SUCCESS

@@ -1,0 +1,11 @@
+commit 8f00b7504695632d95e0177c52519463910abc15
+tree 3c79ac065c4cd62b5dfec06ad7cc0791cf6c1c75
+parent fc7d868603154569f13b0c303725baf191612b18
+author EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-19 14:23:00 +0000
+committer EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-19 14:23:00 +0000
+
+    add message of pipeline trigger
+
+
+:100644 100644 6bea58bf44f814d6bc3062aebb656cd33a1120c8 2c1d941f740406a26b7d0bda2b01dda9cd64e478 M	java-app/src/main/java/com/mycompany/app/App.java
+:100644 100644 f2141a9af0ed2b3b61b8e824e3d3b7cb5e14257c 8e78a0689b8829c2f68ef25982c37c747bcba84f M	java-app/src/test/java/com/mycompany/app/AppTest.java

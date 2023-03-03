@@ -1,0 +1,76 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>Planet</name>
+          <description>This is the world</description>
+          <value>world</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>FLAG</name>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>OPTION</name>
+          <value>option 1 (default)</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>Planet</string>
+        <string>FLAG</string>
+        <string>OPTION</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.14.3">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>5f04f8976f3f909b03ca6a18c696ac53d0c3f53e</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/jenkins-docs/simple-java-maven-app</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+  </actions>
+  <queueId>56</queueId>
+  <timestamp>1676275115519</timestamp>
+  <startTime>1676275115530</startTime>
+  <result>FAILURE</result>
+  <duration>1291</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/job_dsl_example</workspace>
+  <hudsonVersion>2.381</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

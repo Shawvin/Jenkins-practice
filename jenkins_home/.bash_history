@@ -146,3 +146,65 @@ ls
 cat test.yaml 
 ansible-playbook -i hosts test.yaml
 exit
+ls
+cd home
+ls
+exit
+echo $HOME
+cd $HOME/ansible/
+ls
+pwd
+ls
+vi test.yaml 
+exit 
+which java
+java -version
+java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
+env
+exit
+docker ps
+exit
+echo $(. /etc/os-release; echo "$ID")
+exit
+docker ps
+docker images
+exit
+docker version
+docker ps
+ls
+ls /var/
+exit
+id
+docker ps
+docker version
+ll /var/run/docker.sock 
+ls -l /var/run/docker.sock 
+docker images
+exit
+ls
+ls /tmp
+exit
+ls /home/ec2-USER
+ls /home/ec2-user
+ls
+ls /home/
+exit
+cd home/
+mkdir ec2-user
+sudo mkdir ec2-user
+exit
+cd home/
+ls
+exit
+ls /home/
+ssh -i Jenkins.pem ec2-user@ec2-54-255-234-216.ap-southeast-1.compute.amazonaws.com
+ll /home/
+ls -l /home/
+ls -l /home/
+ssh -i Jenkins.pem ec2-user@ec2-54-255-234-216.ap-southeast-1.compute.amazonaws.com
+ssh -i /home/Jenkins.pem ec2-user@ec2-54-255-234-216.ap-southeast-1.compute.amazonaws.com
+exit
+ls /home/
+ssh -i /home/Jenkins.pem ec2-user@ip-172-31-28-196 "/tmp/publish"
+ssh -i /home/Jenkins.pem ec2-user@ip-172-31-28-196 "/tmp/publish"
+exit

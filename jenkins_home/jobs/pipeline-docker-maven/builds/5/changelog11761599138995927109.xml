@@ -1,0 +1,10 @@
+commit d933b68562e0b7370374f48421532dace07eacbb
+tree 6a1ae1bbd187cd178e3b57a06f266297aaa79eac
+parent 004b7101bcd1412ce2deb7757704f483380a31cd
+author EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:36:46 +0000
+committer EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:36:46 +0000
+
+    change the ssh key file location
+
+
+:100755 100755 d9c80e600338c736f34c589a2c0efae7d273656f 3af086e748a9e9416e8bb9fbcc810cca462eee21 M	jenkins/deploy/deploy.sh

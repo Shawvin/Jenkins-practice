@@ -1,0 +1,31 @@
+commit fc792ef8048856748d46159098d56f5bb993a924
+tree 946e8958769d7118f4170bb3ccb74848d26ca407
+parent 93077328c3e7341a87397e8241e1bd4df94bafb7
+author EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:26:48 +0000
+committer EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:26:48 +0000
+
+    Add post action to Jenkinsfile
+
+
+:100644 100644 02d374e00d541af7118f1890366cd7b69868012b 99a1dbb9eb2556b871e740dbfe4cd6af0995995a M	Jenkinsfile
+commit 93077328c3e7341a87397e8241e1bd4df94bafb7
+tree c92114a4f1f10c3dd06bb5b41655b66eeb1dac8a
+parent 930079c1447fb913a61b9e2d09bd3aa3cd11e786
+author EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:07:01 +0000
+committer EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:07:01 +0000
+
+    Add credentials to Jenkins file
+
+
+:100644 100644 f1255eb2147c56f8e270fa66089a6e3f830289f9 02d374e00d541af7118f1890366cd7b69868012b M	Jenkinsfile
+commit 930079c1447fb913a61b9e2d09bd3aa3cd11e786
+tree 5c58c2e1daa5419d622997159eaa4889f7682204
+parent 36f103065c7c9d331e8b969c3887fa3950534e50
+author EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:01:24 +0000
+committer EC2 Default User <ec2-user@ip-172-31-14-193.ap-southeast-1.compute.internal> 2023-02-17 17:01:24 +0000
+
+    Fixes workspace path for job execution
+
+
+:100755 100755 4dab6a460edd30a3b69de7742b7418ad6f314a90 31226d72fb1c4aa0406100bb479839e82664126e M	jenkins/build/mvn.sh
+:100755 100755 bf1883eecec8c86868cb03bb17ed4bb1d2888ca6 6101d0099f23ac30d9bc284bb9f5198fe1b689fb M	jenkins/test/mvn.sh

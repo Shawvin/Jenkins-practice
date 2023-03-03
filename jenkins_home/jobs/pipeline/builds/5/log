@@ -1,0 +1,65 @@
+Started by user [8mha:////4HwENKZoPJIhChI5MBMOOSs6GmQQHwhGyMrNlkC2ilPDAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+[8mha:////4Ji0u7E9DeOfMGLkK2MkiN6DGETFt7hl4W0FHpRuZVh4AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4O/586ea6N+1EWayXROoyk+twFpBxSbC2JrhHc0BVfejAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4OBUX4XqXySgWw5N2S42T4LM4R33FOJxD78rpDbCmH1NAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYZ/dzEvMT0VP3k/NyC0pLUIn2NpNLMnBLdzDxNfQB9z6/O0QAAAA==[0mJenkins in /var/jenkins_home/workspace/pipeline
+[8mha:////4GxA+RYacqp+tFmKNhpmhLS5DILPsfECS1ArVtuqKuu4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4BJR+7loT6093fCADajXA90HNeKKeP4YhyEXKID6fgmwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4J/9KXytJ/o1Urk/tu6oBjLpVcSzeYOiMiJ2tzq6vHljAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Deploy)
+[8mha:////4HALWYBOPjwq1raoz77YVEPq9P2h6EA7IsOoDRy5+MsMAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] retry
+[8mha:////4CmoKG+EqnLT34ryKK6O2imYeFsSare5LAzWYnCpu7pPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4L6m07Re8Rq7E7hQrHMomM7ws1qtYfuL41B+57z31RRGAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ echo Building..
+Building..
+[8mha:////4FTqKMeaSjTr5C1+TQQYAgMTMPgypQhSwryR1D0cHlqSAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] sh
++ echo By the way, I can do more stuff here
+By the way, I can do more stuff here
++ ls -alh
+total 0
+drwxr-xr-x  2 jenkins jenkins   6 Feb 15 03:34 .
+drwxr-xr-x 12 jenkins jenkins 198 Feb 15 03:34 ..
+[8mha:////4Nh87HwON0u9eqS8n5AWXwJwYPeJH3mE77PdLqtQO0WQAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ I am not going to work :c
+/var/jenkins_home/workspace/pipeline@tmp/durable-1b0d60f4/script.sh: 1: I: not found
+[8mha:////4Lf+7KWZulteQB2aj+xQZWtuqCW00R/RGzhnU9/BmnLiAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+ERROR: script returned exit code 127
+Retrying
+[8mha:////4LzDrb6mTWn1afdldiv4zk53AosAM5tUSfc8FbzhMNA7AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjREGBqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8AxnwXE7BAAAA[0m[Pipeline] {
+[8mha:////4HUJu5gl9KD6W9j8VGFWdBTXNUiwl31zJ4KpIiklv4eLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ echo Building..
+Building..
+[8mha:////4BzIfw2VLt9Bx0kzdQ/gLyKRAxTP2+ZZ5W7zYCTi6SOGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] sh
++ echo By the way, I can do more stuff here
+By the way, I can do more stuff here
++ ls -alh
+total 0
+drwxr-xr-x  2 jenkins jenkins   6 Feb 15 03:34 .
+drwxr-xr-x 12 jenkins jenkins 198 Feb 15 03:34 ..
+[8mha:////4F859Sjj6fgi1/AIjiVjuOXyYnvLsQAO4z9ceJM/OT7YAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] sh
++ I am not going to work :c
+/var/jenkins_home/workspace/pipeline@tmp/durable-86cb06bb/script.sh: 1: I: not found
+[8mha:////4PtzU2JrBa2lXftY8KbuskwwvtY8CWKPA+o3rlLqM85/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG7xuaSvgAAAA==[0m[Pipeline] }
+ERROR: script returned exit code 127
+Retrying
+[8mha:////4EnFQwufA8WnAMwrajDDilV6OQ/rP6LyW8SIC74Q7Gj6AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKpAQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZv2gCbJMEAAAA=[0m[Pipeline] {
+[8mha:////4Ok9embHN2+xULLuiPTKWd6bR4YYwd0151gj0j1SLDu6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ echo Building..
+Building..
+[8mha:////4Bpn7WUf2TN1+XkVsrH6yzARfKrzjPIzeu/riNUQbVoVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] sh
++ echo By the way, I can do more stuff here
+By the way, I can do more stuff here
++ ls -alh
+total 0
+drwxr-xr-x  2 jenkins jenkins   6 Feb 15 03:34 .
+drwxr-xr-x 12 jenkins jenkins 198 Feb 15 03:34 ..
+[8mha:////4Ah7+DQNdwPAYaAcj7e6PMxq1c5DNxrC96XeiRecEcZiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wHsqpiJvgAAAA==[0m[Pipeline] sh
++ I am not going to work :c
+/var/jenkins_home/workspace/pipeline@tmp/durable-bf387e8c/script.sh: 1: I: not found
+[8mha:////4FJZNOXZIoI2TyVSgLPMGfBY/+pm74mcggkQiAh4yAN3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] }
+[8mha:////4Ow/aPfClV4wnhJXcoSJ+Y/+/dZs2XlzzNKGXqpcQIc4AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AEFyeIq9AAAA[0m[Pipeline] // retry
+[8mha:////4IoS5WHs093DIREhQfztlmHCydsDPwV3anHtB+pGDlJYAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AMeeX0+9AAAA[0m[Pipeline] }
+[8mha:////4KJnV51b/dSfwpguRW3AxSyqrIj73fE2xCrFVDpI9CakAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJkzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8F+b4UZOUHzeY2670AAAA=[0m[Pipeline] // stage
+[8mha:////4AQw4tsofKoplJIJCHBuI3IxQI98500r1bE17N1m/CCWAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIuskdu9AAAA[0m[Pipeline] }
+[8mha:////4C0C/PCm95I/0LriyJSQF8rOjl80PeFtMYiH3suobf1iAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AJgQlXi9AAAA[0m[Pipeline] // node
+[8mha:////4JtEAkuRacfDotoyIAZDv/UnlkZ7mX610lXNywnSkfCsAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH37fCjb0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 127
+Finished: FAILURE

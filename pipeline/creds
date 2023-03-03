@@ -1,0 +1,20 @@
+
+pipeline {
+	agent any
+	
+	environment {
+		secret=credentials('TEST')
+	}
+
+	stages {
+		stage('Example Stage ') {
+			steps {
+				sh 'echo $secret'
+				sh '''
+					echo "By the way, I can do more stuff here"
+					ls -alh
+				'''
+			}
+		}
+	}
+}

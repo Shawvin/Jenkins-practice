@@ -1,0 +1,19 @@
+
+pipeline {
+	agent any
+	
+	stages {
+		stage('Timeout') {
+			steps {
+				retry(3) {
+				sh 'echo "Building.."'
+				sh '''
+					echo "By the way, I can do more stuff here"
+					ls -alh
+				'''
+                sh 'I am not going to work :c'
+				}
+			}
+		}
+	}
+}

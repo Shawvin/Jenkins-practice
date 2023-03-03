@@ -1,0 +1,65 @@
+Started by user [8mha:////4HwENKZoPJIhChI5MBMOOSs6GmQQHwhGyMrNlkC2ilPDAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/maven-job
+The recommended git tool is: NONE
+using credential git_root
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/maven-job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://web:80/gitlab-instance-ddfe566a/maven.git # timeout=10
+Fetching upstream changes from http://web:80/gitlab-instance-ddfe566a/maven.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://web:80/gitlab-instance-ddfe566a/maven.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ERROR: Error fetching remote repo 'origin'
+hudson.plugins.git.GitException: Failed to fetch from http://web:80/gitlab-instance-ddfe566a/maven.git
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:1003)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1245)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1309)
+	at hudson.scm.SCM.checkout(SCM.java:540)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1240)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:649)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:521)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Caused by: hudson.plugins.git.GitException: Command "git fetch --tags --force --progress -- http://web:80/gitlab-instance-ddfe566a/maven.git +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: fatal: unable to access 'http://web:80/gitlab-instance-ddfe566a/maven.git/': Could not resolve host: web
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2734)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2111)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:623)
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:1001)
+	... 11 more
+ERROR: Error fetching remote repo 'origin'
+Skipped archiving because build is not successful
+Recording test results
+[Checks API] No suitable checks publisher found.
+Sending e-mails to: wxy4shawvin@gmail.com
+ERROR: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError q5-20020a170902c74500b0019a997bca5csm6048303plq.121 - gsmtp
+
+com.sun.mail.smtp.SMTPSendFailedException: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError q5-20020a170902c74500b0019a997bca5csm6048303plq.121 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2374)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1808)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1285)
+	at jakarta.mail.Transport.send0(Transport.java:231)
+	at jakarta.mail.Transport.send(Transport.java:100)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:175)
+	at hudson.tasks.Mailer.perform(Mailer.java:138)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1925)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE
